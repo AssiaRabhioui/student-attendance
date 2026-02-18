@@ -1,4 +1,4 @@
-<?php include_once 'partials/head.php' ?>
+<?php include VIEWS_PASS.'/partials/head.php' ?>
 
 <?php global $title ?>
 <main class="page-main">
@@ -6,7 +6,7 @@
 </main>
 
 
-<?php include_once 'partials/nav.php' ?>
+<?php include VIEWS_PASS.'/partials/nav.php' ?>
 
 
-<?php include_once 'partials/footer.php' ?>
+<?php include VIEWS_PASS.'/partials/footer.php' ?>
