@@ -8,7 +8,6 @@ require VENDOR_PASS . '/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(APP_PASS);
 $dotenv->load();
 
-
 include '../db/queries.php';
 
 $title = '';
