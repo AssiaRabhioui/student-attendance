@@ -10,6 +10,7 @@ $dotenv->load();
 
 
 include '../db/queries.php';
+dd(env('DB_HOST'));
 
 $title = '';
 
