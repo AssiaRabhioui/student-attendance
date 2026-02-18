@@ -5,9 +5,9 @@ use JetBrains\PhpStorm\NoReturn;
 
 if (!function_exists('dd')) {
     #[NoReturn]
-    function dd($var)
+    function dd(...$vars)
     {
-        var_dump($var);
+        var_dump($vars);
         die();
     }
 }
